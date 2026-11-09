@@ -1,4 +1,30 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}
+  /* ================= SAVE ME (mediakit-download) ================= */
+  .saveme{padding:clamp(28px,4vw,56px) clamp(16px,4vw,48px) 0}
+  .sm-card{position:relative;max-width:1180px;margin:0 auto;background:linear-gradient(150deg,var(--bordeaux) 0%,var(--bordeaux-deep) 100%);color:#fbefe9;border-radius:32px;padding:clamp(28px,4.5vw,56px);display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:clamp(24px,4vw,56px);align-items:center;overflow:hidden;box-shadow:0 30px 60px -36px rgba(42,10,20,.8)}
+  .sm-card::after{content:"";position:absolute;right:-120px;top:-120px;width:340px;height:340px;border-radius:50%;background:radial-gradient(circle,rgba(240,48,110,.35),transparent 70%);pointer-events:none}
+  .sm-tag{font-family:"Mrs Saint Delafield",cursive;color:var(--pop);font-size:clamp(58px,6.5vw,92px);line-height:1.1;display:inline-block;transform:rotate(-6deg);margin:0 0 4px -4px;padding:0 .15em}
+  .sm-card h2{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:clamp(34px,4.2vw,58px);line-height:1.02;margin:0 0 14px;color:#fff}
+  .sm-card h2 em{color:#f6c4d2}
+  .sm-card p{margin:0 0 24px;max-width:46ch;color:rgba(251,239,233,.82)}
+  .sm-list{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 26px;padding:0;list-style:none}
+  .sm-list li{font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;border:1px solid rgba(251,239,233,.3);border-radius:99px;padding:6px 12px}
+  .sm-btn{display:inline-flex;align-items:center;gap:14px;background:#fff;color:var(--bordeaux);border-radius:99px;padding:16px 16px 16px 26px;font:600 13px Jost;letter-spacing:.14em;text-transform:uppercase;box-shadow:0 12px 30px -14px rgba(0,0,0,.6);transition:transform .25s}
+  .sm-btn:hover{transform:translateY(-2px)}
+  .sm-btn .ic{width:32px;height:32px;border-radius:50%;background:var(--pop);display:grid;place-items:center;flex:none}
+  .sm-btn .ic svg{width:14px;height:14px;stroke:#fff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .sm-meta{display:block;margin-top:12px;font-size:12.5px;color:rgba(251,239,233,.6)}
+  .sm-doc{position:relative;justify-self:center;width:min(230px,70%);aspect-ratio:1/1.32}
+  .sm-doc i{position:absolute;inset:0;border-radius:16px;background:#fffaf8;box-shadow:0 20px 40px -20px rgba(0,0,0,.6)}
+  .sm-doc i:nth-child(1){transform:rotate(-9deg) translate(-14%,4%);background:#f2dcd7}
+  .sm-doc i:nth-child(2){transform:rotate(5deg) translate(10%,-2%);background:#e8c5be}
+  .sm-doc i:nth-child(3){padding:14% 12%;display:flex;flex-direction:column;gap:8%}
+  .sm-doc .t{font-family:"Mrs Saint Delafield",cursive;color:var(--bordeaux);font-size:clamp(28px,3vw,40px);line-height:1}
+  .sm-doc .l{height:6%;border-radius:9px;background:#f2dcd7}.sm-doc .l.s{width:60%}
+  .sm-doc .k{margin-top:auto;display:grid;grid-template-columns:1fr 1fr;gap:8%}.sm-doc .k b{aspect-ratio:1.4;border-radius:10px;background:var(--rose)}
+  .sm-doc .pdf{position:absolute;right:-6%;bottom:8%;background:var(--pop);color:#fff;font:700 12px Jost;letter-spacing:.14em;padding:7px 11px;border-radius:99px;transform:rotate(6deg)}
+  @media (max-width:760px){.sm-card{grid-template-columns:minmax(0,1fr)}.sm-doc{width:150px;grid-row:1}.sm-btn{width:100%;justify-content:space-between}}
+</style></head><body>
 <meta name="theme-color" content="#6b1d36">
 <title>Jennah Lamont · Mediakit</title>
 <meta name="description" content="Mediakit van Jennah Lamont: TikTok-insights, doelgroep en aanbod.">
@@ -885,6 +911,21 @@
   </div>
 </section>
 
+<!-- ================= SAVE ME ================= -->
+<section class="saveme" id="download">
+  <div class="sm-card">
+    <div>
+      <span class="sm-tag">save me</span>
+      <h2 data-en="Keep my media kit <em>for later</em>">Bewaar mijn mediakit <em>voor later</em></h2>
+      <p data-en="Interested? Download my media kit as a PDF: my stats, audience, brands and work in one document. Easy to share with your team.">Interesse? Download mijn mediakit als PDF: mijn cijfers, doelgroep, merken en werk in één document. Handig om door te sturen naar je team.</p>
+      <ul class="sm-list"><li data-en="Stats">Cijfers</li><li data-en="Audience">Doelgroep</li><li data-en="Brands">Merken</li><li data-en="Work">Werk</li></ul>
+      <a class="sm-btn" id="mkDownload" href="/mediakit/Mediakit_JennahLamont_NL.pdf" download="Mediakit_JennahLamont_NL.pdf" data-nl-href="/mediakit/Mediakit_JennahLamont_NL.pdf" data-en-href="/mediakit/Mediakit_JennahLamont_EN.pdf"><span data-en="Download my media kit">Download mijn mediakit</span><span class="ic"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v9M4 7l4 4 4-4M3 14h10"/></svg></span></a>
+      <small class="sm-meta" data-en="PDF · English">PDF · Nederlands</small>
+    </div>
+    <div class="sm-doc" aria-hidden="true"><i></i><i></i><i><span class="t">Jennah</span><span class="l"></span><span class="l s"></span><span class="k"><b></b><b></b><b></b><b></b></span></i><span class="pdf">PDF</span></div>
+  </div>
+</section>
+
 <!-- ================= CONTACT ================= -->
 <section class="contact" id="contact">
   <div class="c-card">
@@ -1411,6 +1452,13 @@ var MERKEN_2 = [["wondr.png","Wondr",1],["justrussel.png","Just Russel",1.45],["
   c.addEventListener('click', function(){ set(false); b.focus(); });
   [].forEach.call(m.querySelectorAll('.mm-links a'), function(a){ a.addEventListener('click', function(){ set(false); }); });
   document.addEventListener('keydown', function(e){ if (e.key==='Escape' && m.classList.contains('open')) set(false); });
+})();
+
+/* MEDIAKIT-DOWNLOAD: Nederlandse PDF op de Nederlandse versie, Engelse op de Engelse. */
+(function(){
+  var a=document.getElementById('mkDownload'); if(!a) return;
+  function upd(){ var en=document.documentElement.lang==='en'; var h=en?a.dataset.enHref:a.dataset.nlHref; a.href=h; a.setAttribute('download',h.split('/').pop()); }
+  upd(); new MutationObserver(upd).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
 })();
 </script>
 
